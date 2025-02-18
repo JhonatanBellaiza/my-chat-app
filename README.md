@@ -112,7 +112,7 @@ Start the backend server:
 bash
 Copy
 npm run start:dev
-Step 3: Set Up the Frontend
+### **Step 3: Set Up the Frontend**
 Navigate to the frontend directory:
 
 bash
@@ -157,29 +157,13 @@ Run the tests:
 bash
 Copy
 npm run test
-Adding a Video to the README
-You can add a video to the README file by uploading it to a platform like YouTube or Google Drive and embedding it using Markdown. For example:
 
-markdown
-Copy
+
 ## **Demo Video**
 Watch the application in action:
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-Replace YOUR_VIDEO_ID with the actual ID of your video.
+[![Demo Video](https://youtu.be/hWJT24P5Xss)
 
-Submission
-This project was developed as part of the Taxaroo Full Stack Developer Coding Challenge. It demonstrates proficiency in the following areas:
-
-Writing concise, correct, elegant, robust, and efficient code.
-
-Effective use of TypeScript, React, Redux, GraphQL, NestJS, Prisma, PostgreSQL, GraphQL Redis Subscriptions, Mantine Core, and Zustand.
-
-Implementation of real-time communication using GraphQL Redis Subscriptions.
-
-Unit testing with Jest.
-
-Creation and utilization of custom React hooks.
 
 Assumptions
 Real-Time Updates:
@@ -198,10 +182,7 @@ Active Users:
 
 Users are considered active if they are connected to the chatroom via WebSocket.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Author
-[Your Name]
-[Your Email]
-[Your GitHub Profile]
+Jhonatan Bellaiza
+jhonatan_bellaiza@hotmail.com
