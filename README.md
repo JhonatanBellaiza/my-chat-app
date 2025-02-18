@@ -162,7 +162,7 @@ npm run test
 ## **Demo Video**
 Watch the application in action:
 
-[![Demo Video](https://youtu.be/hWJT24P5Xss)
+[![Demo Video](https://img.youtube.com/vi/hWJT24P5Xss/0.jpg)](https://www.youtube.com/watch?v=hWJT24P5Xss)
 
 
 Assumptions
