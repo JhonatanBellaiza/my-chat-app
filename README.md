@@ -104,41 +104,31 @@ docker-compose up -d
 ````
 Run Prisma migrations:
 
-bash
-Copy
+````bash
 npx prisma migrate dev --name init
 Start the backend server:
-
-bash
-Copy
+````
+````bash
 npm run start:dev
+````
 ### **Step 3: Set Up the Frontend**
 Navigate to the frontend directory:
 
-bash
-Copy
+````bash
 cd ../frontend
+````
 Install dependencies:
 
-bash
-Copy
+````bash
 npm install
-Set up environment variables:
+````
 
-Create a .env file in the frontend directory.
-
-Add the following variables:
-
-env
-Copy
-REACT_APP_API_URL=http://localhost:3000
-REACT_APP_WS_URL=ws://localhost:3000
 Start the frontend development server:
 
-bash
-Copy
+````bash
 npm start
-Step 4: Access the Application
+````
+### **Step 4: Access the Application**
 Open your browser and navigate to http://localhost:3000.
 
 Register a new user or log in with an existing account.
@@ -159,30 +149,30 @@ Copy
 npm run test
 
 
+
+#**Assumptions**
+
+##Real-Time Updates:
+
+GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
+
+##Image Uploads:
+
+Users can upload images as part of their profile or messages.
+
+##Multiple Chatrooms:
+
+Users can create and join multiple chatrooms.
+
+##Active Users:
+
+Users are considered active if they are connected to the chatroom via WebSocket.
+
 ## **Demo Video**
 Watch the application in action:
 
 [![Demo Video](https://img.youtube.com/vi/hWJT24P5Xss/0.jpg)](https://www.youtube.com/watch?v=hWJT24P5Xss)
 
-
-Assumptions
-Real-Time Updates:
-
-GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
-
-Image Uploads:
-
-Users can upload images as part of their profile or messages.
-
-Multiple Chatrooms:
-
-Users can create and join multiple chatrooms.
-
-Active Users:
-
-Users are considered active if they are connected to the chatroom via WebSocket.
-
-
-Author
-Jhonatan Bellaiza
-jhonatan_bellaiza@hotmail.com
+#Author
+-Jhonatan Bellaiza
+-jhonatan_bellaiza@hotmail.com
