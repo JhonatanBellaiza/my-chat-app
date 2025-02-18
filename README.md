@@ -92,8 +92,8 @@ The application is built using the following technologies and libraries:
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/JhonatanBellaiza/my-chat-app.git
+cd my-chat-app
 ````
 ### **Step 2: Set Up the Backend**
 Navigate to the backend directory:
