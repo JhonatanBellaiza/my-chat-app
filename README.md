@@ -76,34 +76,32 @@ The application is built using the following technologies and libraries:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
+````
 ### **Step 2: Set Up the Backend**
 Navigate to the backend directory:
 
 ```bash
-Copy
 cd backend
 Install dependencies:
-
-bash
-Copy
+````
+````bash
 npm install
 Set up environment variables:
-
+````
 Create a .env file in the backend directory.
 
 Add the following variables:
 
-env
-Copy
+````
 DATABASE_URL="postgresql://user:password@localhost:5432/chatroom_db"
 JWT_SECRET="your-jwt-secret"
 REDIS_URL="redis://localhost:6379"
+````
 Start Docker and run the PostgreSQL and Redis containers:
 
-bash
-Copy
+````bash
 docker-compose up -d
+````
 Run Prisma migrations:
 
 bash
