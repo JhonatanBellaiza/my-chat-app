@@ -62,23 +62,24 @@ The application is built using the following technologies and libraries:
 - **Jest**: A JavaScript testing framework for unit testing.
 
 ---
-#**Assumptions**
+##**Assumptions**
 
-##Real-Time Updates:
+###Real-Time Updates:
 
-GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
+-GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
 
-##Image Uploads:
+###Image Uploads:
 
-Users can upload images as part of their profile or messages.
+-Users can upload images as part of their profile or messages.
 
-##Multiple Chatrooms:
+###Multiple Chatrooms:
 
-Users can create and join multiple chatrooms.
+-Users can create and join multiple chatrooms.
 
-##Active Users:
+###Active Users:
 
-Users are considered active if they are connected to the chatroom via WebSocket.
+-Users are considered active if they are connected to the chatroom via WebSocket.
+
 ---
 
 ## **How to Run the Application**
