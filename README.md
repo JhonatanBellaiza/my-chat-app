@@ -10,7 +10,6 @@ The application is built using the following technologies and libraries:
 - **Frontend**: React, Redux, Apollo Client, Mantine Core, Zustand
 - **Testing**: Jest for Unit Testing
 - **Real-Time Communication**: WebSockets (GraphQL Redis Subscriptions)
-- **Bonus**: Custom React Hooks
 
 ---
 
@@ -63,6 +62,24 @@ The application is built using the following technologies and libraries:
 - **Jest**: A JavaScript testing framework for unit testing.
 
 ---
+#**Assumptions**
+
+##Real-Time Updates:
+
+GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
+
+##Image Uploads:
+
+Users can upload images as part of their profile or messages.
+
+##Multiple Chatrooms:
+
+Users can create and join multiple chatrooms.
+
+##Active Users:
+
+Users are considered active if they are connected to the chatroom via WebSocket.
+---
 
 ## **How to Run the Application**
 
@@ -100,14 +117,15 @@ REDIS_URL="redis://localhost:6379"
 Start Docker and run the PostgreSQL and Redis containers:
 
 ````bash
-docker-compose up -d
+docker-compose up
 ````
 Run Prisma migrations:
 
 ````bash
 npx prisma migrate dev --name init
-Start the backend server:
 ````
+Start the backend server:
+
 ````bash
 npm run start:dev
 ````
@@ -135,38 +153,21 @@ Register a new user or log in with an existing account.
 
 Create chatrooms, add users, and start chatting!
 
-Testing
-Backend Unit Tests
+#**Testing**
+
+##Backend Unit Tests
 Navigate to the backend directory:
 
-bash
-Copy
+````bash
 cd backend
+````
 Run the tests:
 
-bash
-Copy
+````bash
+
 npm run test
+````
 
-
-
-#**Assumptions**
-
-##Real-Time Updates:
-
-GraphQL Redis Subscriptions are used for real-time message updates and user activity notifications.
-
-##Image Uploads:
-
-Users can upload images as part of their profile or messages.
-
-##Multiple Chatrooms:
-
-Users can create and join multiple chatrooms.
-
-##Active Users:
-
-Users are considered active if they are connected to the chatroom via WebSocket.
 
 ## **Demo Video**
 Watch the application in action:
