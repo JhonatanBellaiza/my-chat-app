@@ -154,10 +154,10 @@ Register a new user or log in with an existing account.
 
 Create chatrooms, add users, and start chatting!
 
-#**Testing**
+# **Testing**
 
-##Backend Unit Tests
-Navigate to the backend directory:
+## Backend Unit Tests
+- Navigate to the backend directory:
 
 ````bash
 cd backend
@@ -176,5 +176,5 @@ Watch the application in action:
 [![Demo Video](https://img.youtube.com/vi/hWJT24P5Xss/0.jpg)](https://www.youtube.com/watch?v=hWJT24P5Xss)
 
 # Author
--Jhonatan Bellaiza
--jhonatan_bellaiza@hotmail.com
+   -Jhonatan Bellaiza.
+   -jhonatan_bellaiza@hotmail.com.
