@@ -39,7 +39,7 @@ The application is built using the following technologies and libraries:
    - **GraphQL Redis Subscriptions** enable real-time updates for messages and user activity.
 
 6. **UI/UX**:
-   - User-friendly interface built with **Mantine Core**.
+   - User-friendly interface built with **Ant Design** and **Mantine Core**.
    - State management using **Zustand** for a lightweight and efficient solution.
 
 ---
